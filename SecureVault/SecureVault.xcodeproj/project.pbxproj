@@ -14,6 +14,9 @@
 		81E6E36F2C3597C4006977B3 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E6E36E2C3597C4006977B3 /* SignInView.swift */; };
 		81E6E3712C359903006977B3 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E6E3702C359903006977B3 /* InputView.swift */; };
 		81E6E3732C368C5C006977B3 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E6E3722C368C5C006977B3 /* SignUpView.swift */; };
+		81E6E3752C36A638006977B3 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E6E3742C36A637006977B3 /* MainView.swift */; };
+		81E6E3772C36A682006977B3 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E6E3762C36A682006977B3 /* HelpView.swift */; };
+		81E6E3792C36AD6A006977B3 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E6E3782C36AD6A006977B3 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +28,9 @@
 		81E6E36E2C3597C4006977B3 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		81E6E3702C359903006977B3 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
 		81E6E3722C368C5C006977B3 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		81E6E3742C36A637006977B3 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		81E6E3762C36A682006977B3 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
+		81E6E3782C36AD6A006977B3 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +47,9 @@
 		81E6E3542C359782006977B3 = {
 			isa = PBXGroup;
 			children = (
+				81E6E3742C36A637006977B3 /* MainView.swift */,
+				81E6E3762C36A682006977B3 /* HelpView.swift */,
+				81E6E3782C36AD6A006977B3 /* InfoView.swift */,
 				81E6E35F2C359782006977B3 /* SecureVault */,
 				81E6E35E2C359782006977B3 /* Products */,
 			);
@@ -147,7 +156,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				81E6E36F2C3597C4006977B3 /* SignInView.swift in Sources */,
+				81E6E3752C36A638006977B3 /* MainView.swift in Sources */,
 				81E6E3732C368C5C006977B3 /* SignUpView.swift in Sources */,
+				81E6E3792C36AD6A006977B3 /* InfoView.swift in Sources */,
+				81E6E3772C36A682006977B3 /* HelpView.swift in Sources */,
 				81E6E3712C359903006977B3 /* InputView.swift in Sources */,
 				81E6E3632C359782006977B3 /* ContentView.swift in Sources */,
 				81E6E3612C359782006977B3 /* SecureVaultApp.swift in Sources */,
