@@ -13,6 +13,7 @@
 		81E6E3682C359783006977B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81E6E3672C359783006977B3 /* Preview Assets.xcassets */; };
 		81E6E36F2C3597C4006977B3 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E6E36E2C3597C4006977B3 /* SignInView.swift */; };
 		81E6E3712C359903006977B3 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E6E3702C359903006977B3 /* InputView.swift */; };
+		81E6E3732C368C5C006977B3 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E6E3722C368C5C006977B3 /* SignUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		81E6E3672C359783006977B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		81E6E36E2C3597C4006977B3 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		81E6E3702C359903006977B3 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		81E6E3722C368C5C006977B3 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				81E6E3602C359782006977B3 /* SecureVaultApp.swift */,
 				81E6E3622C359782006977B3 /* ContentView.swift */,
 				81E6E36E2C3597C4006977B3 /* SignInView.swift */,
+				81E6E3722C368C5C006977B3 /* SignUpView.swift */,
 				81E6E3702C359903006977B3 /* InputView.swift */,
 				81E6E3642C359783006977B3 /* Assets.xcassets */,
 				81E6E3662C359783006977B3 /* Preview Content */,
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81E6E36F2C3597C4006977B3 /* SignInView.swift in Sources */,
+				81E6E3732C368C5C006977B3 /* SignUpView.swift in Sources */,
 				81E6E3712C359903006977B3 /* InputView.swift in Sources */,
 				81E6E3632C359782006977B3 /* ContentView.swift in Sources */,
 				81E6E3612C359782006977B3 /* SecureVaultApp.swift in Sources */,
