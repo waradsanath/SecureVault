@@ -10,21 +10,28 @@ import SwiftUI
 struct InfoView: View {
     var imageName: String
     var text: String
+    var description: String
     var body: some View {
         HStack {
             Image(systemName: imageName)
-                .resizable()
-                .scaledToFit()
-                .frame(width: 25, alignment: .leading)
-                .foregroundStyle(Color.blue)
-            Text(text)
-                .font(.system(size: 20))
-                .bold()
+                .symbolRenderingMode(.monochrome)
+                .foregroundStyle(.blue)
+                .font(.system(.title, weight: .regular))
+                .frame(width: 60, height: 50)
+                .clipped()
+            VStack(alignment: .leading, spacing: 3) {
+                Text(text)
+                    .font(.system(.footnote, weight: .semibold))
+                Text(description)
+                    .font(.footnote)
+                    .foregroundStyle(.secondary)
+            }
+            .fixedSize(horizontal: false, vertical: true)
             Spacer()
         }
     }
 }
 
 #Preview {
-    InfoView(imageName: "chevron.right", text: "sdlfndsf")
+    InfoView(imageName: "circle", text: "sdlfndsf", description: "ldksnfkbdsakgjfbfkldg kfdbgkjbdfskgjbfdksjbgjbds fljhgbdsjfhbglkjdfsbjklgb sdfjkbgdsfijbgkldsfjbgkjd fbgkjbdfgkjbdfkgjbdkfjbgk dsfbjgkdfjbgksdfbjgkdjfbg kdjfbgkdfjbgkdfjbgkdfjbgkdfjbgksbjf")
 }
