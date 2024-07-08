@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		814554AB2C3BA1CA00E0195E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814554AA2C3BA1CA00E0195E /* Model.swift */; };
+		814554AD2C3BA45100E0195E /* SecureVault GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 814554AC2C3BA45100E0195E /* SecureVault GoogleService-Info.plist */; };
 		81E6E3612C359782006977B3 /* SecureVaultApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E6E3602C359782006977B3 /* SecureVaultApp.swift */; };
 		81E6E3632C359782006977B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E6E3622C359782006977B3 /* ContentView.swift */; };
 		81E6E3652C359783006977B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81E6E3642C359783006977B3 /* Assets.xcassets */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		814554AA2C3BA1CA00E0195E /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		814554AC2C3BA45100E0195E /* SecureVault GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SecureVault GoogleService-Info.plist"; sourceTree = "<group>"; };
 		81E6E35D2C359782006977B3 /* SecureVault.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecureVault.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81E6E3602C359782006977B3 /* SecureVaultApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureVaultApp.swift; sourceTree = "<group>"; };
 		81E6E3622C359782006977B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -69,9 +73,11 @@
 				81E6E3602C359782006977B3 /* SecureVaultApp.swift */,
 				81E6E3622C359782006977B3 /* ContentView.swift */,
 				81E6E36E2C3597C4006977B3 /* SignInView.swift */,
+				814554AA2C3BA1CA00E0195E /* Model.swift */,
 				81E6E3722C368C5C006977B3 /* SignUpView.swift */,
 				81E6E3702C359903006977B3 /* InputView.swift */,
 				81E6E3642C359783006977B3 /* Assets.xcassets */,
+				814554AC2C3BA45100E0195E /* SecureVault GoogleService-Info.plist */,
 				81E6E3662C359783006977B3 /* Preview Content */,
 			);
 			path = SecureVault;
@@ -144,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81E6E3682C359783006977B3 /* Preview Assets.xcassets in Resources */,
+				814554AD2C3BA45100E0195E /* SecureVault GoogleService-Info.plist in Resources */,
 				81E6E3652C359783006977B3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -155,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				814554AB2C3BA1CA00E0195E /* Model.swift in Sources */,
 				81E6E36F2C3597C4006977B3 /* SignInView.swift in Sources */,
 				81E6E3752C36A638006977B3 /* MainView.swift in Sources */,
 				81E6E3732C368C5C006977B3 /* SignUpView.swift in Sources */,
